@@ -9,6 +9,10 @@ body
 	font-size: 1.4em;
 	
 }
+html
+{
+	background-color: #02010a;
+}
 header
 {
 	
@@ -21,8 +25,11 @@ header > h1
 {
 	text-shadow: 2px 2px 2px #02010a;
 	padding-top: 15px;
-	padding-left: 20px;
-	
+	padding-left: 20px;	
+}
+img
+{
+	box-shadow: 2px 2px 2px 0px #02010a;
 }
 #navegador
 {
@@ -50,14 +57,15 @@ header > h1
 #primera
 {
 	background-color: #82c3a6;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .image1
 {
 	display: block;
 	margin: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	
 }
 article 
 {
@@ -147,6 +155,11 @@ footer
 		width: 100%;
 		margin: 0 auto;
 	}
+	#primera
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
 
 }
 
@@ -212,8 +225,4 @@ footer
 		margin: 0 auto;
 		text-align: left;
 	}
-}
-h4
-{
-
 }
