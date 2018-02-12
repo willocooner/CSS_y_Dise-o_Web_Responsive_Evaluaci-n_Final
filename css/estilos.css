@@ -124,12 +124,45 @@ img
 	margin: auto;
 }
 
+.imagen1
+{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+.imagen2
+{
+	-webkit-filter:grayscale;
+	filter:grayscale(100%);
+}
+.imagen3
+{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+.imagen4
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+.imagen5
+{
+	
+}
+.imagen6
+{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+
 .foto1
 {
+	
 	background-color: #d5c75f;
 	width: 33.33%;
 	display: block;
 	margin: auto;	
+
 
 }
 .foto2
@@ -137,7 +170,8 @@ img
 	background-color: #d5c75f;
 	width: 33.33%;
 	display: block;
-	margin: auto;	
+	margin: auto;
+
 }
 .foto3
 {
