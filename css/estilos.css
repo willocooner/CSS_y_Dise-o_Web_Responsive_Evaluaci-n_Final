@@ -19,7 +19,8 @@ header
 	background-color: #5b7989;
 	color: white;
 	text-align: left;
-	border-radius: 20px 20px 0px 0px;	
+	border-radius: 20px 20px 0px 0px;
+
 }
 header > h1
 {
@@ -59,14 +60,28 @@ img
 	background-color: #82c3a6;
 	padding-top: 30px;
 	padding-bottom: 30px;
+
 }
 
 .image1
 {
 	display: block;
-	margin: auto;
-	
+	margin: auto;	
 }
+
+.image2
+{
+	display: block;
+	margin: auto;
+
+}
+
+.image3
+{
+	display: block;
+	margin: auto;
+}
+
 article 
 {
 	box-sizing: border-box;
@@ -84,24 +99,14 @@ article
 	width: 50%;
 	text-align: center;
 }
-.image2
-{
-	display: block;
-	margin: auto;
-	
-}
+
 #columna3
 {
 	background-color: #d5c75f;
 	width: 50%;
 	text-align: center;
 }
-.image3
-{
-	display: block;
-	margin: auto;
-	
-}
+
 
 footer
 {
@@ -148,7 +153,7 @@ footer
 }
 
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1000px)
 {
 	#segunda
 	{
@@ -225,4 +230,26 @@ footer
 		margin: 0 auto;
 		text-align: left;
 	}
+}
+
+#columna2 > img
+{
+	transform: rotate();
+	transition:  1s;
+}
+
+#columna2 > img:hover
+{
+	transform: rotate(10deg);
+}
+
+#columna3 > img
+{
+	transform: translate(); 
+	transition:  1s;
+}
+
+#columna3 > img:hover
+{
+	transform: translate(5px, -20px);
 }
