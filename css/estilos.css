@@ -60,13 +60,55 @@ img
 	background-color: #82c3a6;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
 
+#columna2
+{
+	background-color: #d5c75f;
+	width: 50%;
+	text-align: center;
+}
+
+#columna3
+{
+	background-color: #d5c75f;
+	width: 50%;
+	text-align: center;
+}
+
+#paisajes
+{
+	background-color: #d5c75f;
+	width: 100%;
+	text-align: center;
+}
+
+#paisajes2
+{
+	background-color: #d5c75f;
+	width: 100%;
+	text-align: center;
+}
+
+#retratos
+{
+	background-color: #d5c75f;
+	width: 100%;
+	text-align: center;
+}
+
+#retratos2
+{
+	background-color: #d5c75f;
+	width: 100%;
+	text-align: center;
 }
 
 .image1
 {
 	display: block;
-	margin: auto;	
+	margin: auto;
+
 }
 
 .image2
@@ -82,30 +124,61 @@ img
 	margin: auto;
 }
 
+.foto1
+{
+	background-color: #d5c75f;
+	width: 33.33%;
+	display: block;
+	margin: auto;	
+
+}
+.foto2
+{
+	background-color: #d5c75f;
+	width: 33.33%;
+	display: block;
+	margin: auto;	
+}
+.foto3
+{
+	background-color: #d5c75f;
+	width: 33.33%;
+	display: block;
+	margin: auto;	
+}
+.foto4
+{
+	background-color: #d5c75f;
+	width: 33.33%;
+	display: block;
+	margin: auto;	
+}
+.foto5
+{
+	background-color: #d5c75f;
+	width: 33.33%;
+	display: block;
+	margin: auto;	
+}
+.foto6
+{
+	background-color: #d5c75f;
+	width: 33.33%;
+	display: block;
+	margin: auto;	
+}
+
 article 
 {
 	box-sizing: border-box;
 	float: left;
 	padding: 1%;
 	padding-top: 30px;
-	height: 80%;
 	text-decoration: underline;
 }
 
 	
-#columna2
-{
-	background-color: #d5c75f;
-	width: 50%;
-	text-align: center;
-}
 
-#columna3
-{
-	background-color: #d5c75f;
-	width: 50%;
-	text-align: center;
-}
 
 
 footer
@@ -164,6 +237,37 @@ footer
 	{
 		width: 100%;
 		margin: 0 auto;
+	}
+
+	.foto1
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto2
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto3
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto4
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto5
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto6
+	{
+		margin: 0 auto;
+		width: 100%;
 	}
 
 }
@@ -229,6 +333,38 @@ footer
 		width: 100%;
 		margin: 0 auto;
 		text-align: left;
+	}
+
+
+	.foto1
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto2
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto3
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto4
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto5
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+	.foto6
+	{
+		margin: 0 auto;
+		width: 100%;
 	}
 }
 
