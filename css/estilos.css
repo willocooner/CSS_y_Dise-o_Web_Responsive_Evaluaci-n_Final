@@ -58,7 +58,6 @@ article
 	float: left;
 	padding: 1%;
 	padding-top: 30px;
-	text-align: center;
 	height: 80%;
 	text-decoration: underline;
 }
@@ -68,6 +67,7 @@ article
 {
 	background-color: #d5c75f;
 	width: 50%;
+	text-align: center;
 }
 .image2
 {
@@ -79,6 +79,7 @@ article
 {
 	background-color: #d5c75f;
 	width: 50%;
+	text-align: center;
 }
 .image3
 {
@@ -132,6 +133,7 @@ footer
 		width: 100%;
 		margin: 0 auto;
 	}
+
 }
 
 
@@ -188,6 +190,7 @@ footer
 		width: 100%;
 		margin: 0 auto;
 		text-align: left;
+
 	}
 	#ColumnaDerechos
 	{
@@ -195,4 +198,8 @@ footer
 		margin: 0 auto;
 		text-align: left;
 	}
+}
+h4
+{
+
 }
