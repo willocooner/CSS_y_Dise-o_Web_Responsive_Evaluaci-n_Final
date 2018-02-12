@@ -1,0 +1,197 @@
+body
+{
+	font-family: Dancing Script;
+}
+header
+{
+	font-family: Dancing Script;
+	background-color: #5b7989;
+	color: white;
+	text-align: left;
+	border-radius: 20px 20px 0px 0px;	
+}
+header > h1
+{
+	text-shadow: 2px 2px 2px #02010a;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+#navegador
+{
+	text-align: right;
+	padding-bottom: 15px;
+	word-spacing: 8px;
+	padding-right: 20px;
+}
+#navegador > a
+{
+	color: white;
+}
+.inicio
+{
+	text-decoration: none;
+}
+.paisajes
+{
+	text-decoration: none;
+}
+.retratos
+{
+	text-decoration: none;
+}
+#primera
+{
+	background-color: #82c3a6;
+}
+
+.image1
+{
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+article 
+{
+	box-sizing: border-box;
+	float: left;
+	padding: 1%;
+	padding-top: 30px;
+	text-align: center;
+	height: 80%;
+	text-decoration: underline;
+}
+
+	
+#columna2
+{
+	background-color: #d5c75f;
+	width: 50%;
+}
+.image2
+{
+	display: block;
+	margin: auto;
+	
+}
+#columna3
+{
+	background-color: #d5c75f;
+	width: 50%;
+}
+.image3
+{
+	display: block;
+	margin: auto;
+	
+}
+
+footer
+{
+	background-color: #C6d5c5;
+	color: #02010a;
+	text-align: center;
+	border-radius: 0px 0px 10px 10px;	
+}
+
+#ColumnaContactos
+{
+	background-color: #C6d5c5;
+	width: 25%;
+	text-decoration: none;
+
+}
+#ColumnaTerminos
+{
+	background-color: #C6d5c5;
+	width: 25%;
+	text-decoration: none;
+
+}
+#ColumnaRedes
+{
+	background-color: #C6d5c5;
+	width: 25%;
+	text-decoration: none;
+
+}
+#ColumnaDerechos
+{
+	background-color: #C6d5c5;
+	width: 25%;
+	text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 900px)
+{
+	#segunda
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+	header
+	{
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#navegador
+	{
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#segunda
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna2
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna3
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	header
+	{
+		width:100%;
+		margin: 0 auto;
+	}
+	#ColumnaContactos
+	{
+		width: 100%;
+		margin: 0 auto;
+		text-align: left;
+	}
+	#ColumnaTerminos
+	{
+		width: 100%;
+		margin: 0 auto;
+		text-align: left;
+		
+	}
+	#ColumnaRedes
+	{
+		width: 100%;
+		margin: 0 auto;
+		text-align: left;
+	}
+	#ColumnaDerechos
+	{
+		width: 100%;
+		margin: 0 auto;
+		text-align: left;
+	}
+}
