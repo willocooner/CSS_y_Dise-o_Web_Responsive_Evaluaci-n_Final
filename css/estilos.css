@@ -101,6 +101,11 @@ footer
 	color: #02010a;
 	text-align: center;
 	border-radius: 0px 0px 10px 10px;	
+	box-sizing: border-box;
+	float: left;
+	padding: 1%;
+	padding-top: 30px;
+	height: 80%;
 }
 
 #ColumnaContactos
@@ -108,13 +113,14 @@ footer
 	background-color: #C6d5c5;
 	width: 25%;
 	text-decoration: none;
-
+	
 }
 #ColumnaTerminos
 {
 	background-color: #C6d5c5;
 	width: 25%;
 	text-decoration: none;
+	
 
 }
 #ColumnaRedes
@@ -122,13 +128,14 @@ footer
 	background-color: #C6d5c5;
 	width: 25%;
 	text-decoration: none;
-
+	
 }
 #ColumnaDerechos
 {
 	background-color: #C6d5c5;
 	width: 25%;
 	text-decoration: none;
+
 
 }
 
